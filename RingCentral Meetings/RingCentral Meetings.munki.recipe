@@ -10,32 +10,30 @@
 	<string>com.kginger.munki.RingCentralMeetings</string>
 	<key>Input</key>
 	<dict>
+		<key>BUNDLE_ID</key>
+		<string>us.zoom.ringcentral</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/%NAME%</string>
+		<string>apps/RingCentralMeetings</string>
 		<key>NAME</key>
-		<string>RingCentral Meetings</string>
+		<string>RingCentralMeetings</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>RingCentral_Transcode.app</string>
-				<string>aomhost.app</string>
-				<string>airhost.app</string>
-				<string>CptHost.app</string>
-				<string>RingCentral Meetings.app</string>
-				<string>ZMScreenshot.app</string>
-				<string>RingCentralUninstaller.app</string>
+				<string>RingCentralMeetings.app</string>
 			</array>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>RingCentral Office integrates phone, video, meetings, and messaging in one reliable, easy-to-use solution.</string>
+			<string>Online videoconferencing app for RingCentral.</string>
 			<key>developer</key>
-			<string>RingCentral, Inc.</string>
+			<string>RingCentral</string>
 			<key>display_name</key>
 			<string>RingCentral Meetings</string>
+			<key>minimum_os_version</key>
+			<string>10.10</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
